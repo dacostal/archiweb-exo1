@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'dacosta-lea-exo1';
+  background: string = "";
+
+  getBackground(background: string) {
+    this.background = background;
+  }
 }

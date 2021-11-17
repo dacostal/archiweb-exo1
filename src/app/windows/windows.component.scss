@@ -1,0 +1,25 @@
+div {
+  display: grid;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(2, 200px);
+}
+
+.red {
+  border-color: #f25022;
+  background-color: #f25022;
+}
+
+.green {
+  border-color: #7fba00;
+  background-color: #7fba00;
+}
+
+.blue {
+  border-color: #00a4ef;
+  background-color: #00a4ef;
+}
+
+.yellow {
+  border-color: #ffb900;
+  background-color: #ffb900;
+}
