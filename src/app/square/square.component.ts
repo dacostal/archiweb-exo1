@@ -15,10 +15,6 @@ export class SquareComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getBackground(background: string) {
-    return background;
-  }
-
   setBackground(color: string) {
     this.sendBackgroundToApp.emit(color);
   }

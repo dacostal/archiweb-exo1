@@ -1,6 +1,6 @@
 <div>
-  <button (click)="setBackground(red)" [ngClass]="red"></button>
-  <button (click)="setBackground(green)" [ngClass]="green"></button>
-  <button (click)="setBackground(blue)" [ngClass]="blue"></button>
-  <button (click)="setBackground(yellow)" [ngClass]="yellow"></button>
+  <app-small-square (sendBackgroundToWindows)="setBackground($event)" [color]="red"></app-small-square>
+  <app-small-square (sendBackgroundToWindows)="setBackground($event)" [color]="green"></app-small-square>
+  <app-small-square (sendBackgroundToWindows)="setBackground($event)" [color]="blue"></app-small-square>
+  <app-small-square (sendBackgroundToWindows)="setBackground($event)" [color]="yellow"></app-small-square>
 </div>

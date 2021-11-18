@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SquareComponent } from './square/square.component';
 import { WindowsComponent } from './windows/windows.component';
+import { SmallSquareComponent } from './small-square/small-square.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WindowsComponent } from './windows/windows.component';
     HeaderComponent,
     FooterComponent,
     SquareComponent,
-    WindowsComponent
+    WindowsComponent,
+    SmallSquareComponent
   ],
   imports: [
     BrowserModule,
